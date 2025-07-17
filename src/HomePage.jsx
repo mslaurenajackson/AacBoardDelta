@@ -5,18 +5,19 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 
 const symbols = [ 
-  { id: 1, text: 'Gullah Dialect', image: 'Gullah_File.jpg' },
-  { id: 2, text: 'The', image: 'The.jpg' },
+  { id: 1, text: 'The', image: 'The.jpg' },
+  { id: 2, text: 'Swim', image: 'Swim.png' },
   { id: 3, text: 'Drink', image: 'drink.png' },
   { id: 4, text: 'Eat', image: 'eat.jpg' },
+  {id: 5, text: 'Hamburger', image: 'Hamburger.png' },
   { id: 5, text: 'Yes', video: 'yes.mp4' },
   { id: 6, text: 'No', video: 'no.mp4' },
   { id: 7, text: 'More', video: 'more.mp4' },
   { id: 8, text: 'Pee', image: 'peePecs.png' },
   { id: 9, text: 'Help', video: 'help.mp4' },
   { id: 10, text: 'Cookie', image: 'cookie.jpg' },
-  { id: 11, text: 'Are', image: 'are.jpg' },
-  { id: 12, text: 'Give', image: 'give.jpg' },
+  { id: 11, text: 'Give', image: 'give.jpg' },
+  { id: 12, text: 'Are', image: 'are.jpg' },
 ];
 
 function HomePage() {
