@@ -1,11 +1,10 @@
-// SettingsMenu.jsx
 import React, { useRef, useState } from 'react';
-import './App.css';
-import App from './App.jsx';
+import './Settings.css';
 import Navbar from './components/Navbar';
+import { useNavigate } from 'react-router-dom';
 
- 
-const Settings = ({ isOpen, onClose, onThemeChange, onFontSizeChange, onImageUpload }) => {
+
+const Settings = ({ onThemeChange, onFontSizeChange, onImageUpload }) => {
   const fileInputRef = useRef(null);
   const [darkMode, setDarkMode] = useState(false);
   const [fontSize, setFontSize] = useState('16');
@@ -13,6 +12,9 @@ const Settings = ({ isOpen, onClose, onThemeChange, onFontSizeChange, onImageUpl
   const handleImageClick = () => {
     fileInputRef.current.click();
   };
+
+  const navigate = useNavigate();
+
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
@@ -22,20 +24,21 @@ const Settings = ({ isOpen, onClose, onThemeChange, onFontSizeChange, onImageUpl
   };
 
   const toggleDarkMode = () => {
-    setDarkMode(!darkMode);
-    if (onThemeChange) onThemeChange(!darkMode);
+    const newTheme = !darkMode;
+    setDarkMode(newTheme);
+    if (onThemeChange) onThemeChange(newTheme);
   };
 
   const handleFontSizeChange = (e) => {
-    setFontSize(e.target.value);
-    if (onFontSizeChange) onFontSizeChange(e.target.value);
+    const size = e.target.value;
+    setFontSize(size);
+    if (onFontSizeChange) onFontSizeChange(size);
   };
 
-  if (!isOpen) return null;
-
   return (
+    <>
     <div className="settings-menu">
-      <button onClick={onClose} className="close-btn">Close ✖</button>
+      <button onClick={() => navigate('/')} className="close-btn">Close ✖</button>
 
       <ul>
         <li>
@@ -55,7 +58,7 @@ const Settings = ({ isOpen, onClose, onThemeChange, onFontSizeChange, onImageUpl
           </label>
         </li>
         <li>
-          <button onClick={handleImageClick}>Upload Family Photo</button>
+          <button onClick={handleImageClick}>Upload Photo</button>
           <input
             type="file"
             accept="image/*"
@@ -66,6 +69,7 @@ const Settings = ({ isOpen, onClose, onThemeChange, onFontSizeChange, onImageUpl
         </li>
       </ul>
     </div>
+    </>
   );
 };
 

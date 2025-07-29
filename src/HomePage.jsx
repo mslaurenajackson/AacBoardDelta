@@ -9,15 +9,15 @@ const symbols = [
   { id: 2, text: 'Swim', image: 'Swim.png' },
   { id: 3, text: 'Drink', image: 'drink.png' },
   { id: 4, text: 'Eat', image: 'eat.jpg' },
-  {id: 5, text: 'Hamburger', image: 'Hamburger.png' },
-  { id: 5, text: 'Yes', video: 'yes.mp4' },
-  { id: 6, text: 'No', video: 'no.mp4' },
-  { id: 7, text: 'More', video: 'more.mp4' },
-  { id: 8, text: 'Pee', image: 'peePecs.png' },
-  { id: 9, text: 'Help', video: 'help.mp4' },
-  { id: 10, text: 'Cookie', image: 'cookie.jpg' },
-  { id: 11, text: 'Give', image: 'give.jpg' },
-  { id: 12, text: 'Are', image: 'are.jpg' },
+  { id: 5, text: 'Hamburger', image: 'Hamburger.png' }, //fixed duplicate id
+  { id: 6, text: 'Yes', video: 'yes.mp4' },
+  { id: 7, text: 'No', video: 'no.mp4' },
+  { id: 8, text: 'More', video: 'more.mp4' },
+  { id: 9, text: 'Pee', image: 'peePecs.png' },
+  { id: 10, text: 'Help', video: 'help.mp4' },
+  { id: 11, text: 'Cookie', image: 'cookie.jpg' },
+  { id: 12, text: 'Give', image: 'give.jpg' },
+  { id: 13, text: 'Are', image: 'are.jpg' },
 ];
 //it ("should use API to synthesize the voice when the patient clicks on a symbol"
 
