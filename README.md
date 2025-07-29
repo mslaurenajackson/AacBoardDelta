@@ -1,13 +1,33 @@
-# React + Vite
+Welcome!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React.js prototype of an Augmentative and Alternative Communication (AAC) device, inspired by my grandmother, who suffered a grand mal stroke. As a speech-language pathologist (SLP), I was motivated to design a symbol board using Picture Exchange Communication System (PECS) principles to support individuals with speech and communication challenges.
 
-Currently, two official plugins are available:
+🧠 Purpose
+To create a digital AAC tool that offers voice output when a symbol or letter is touched, auditory output via synthesized voice, and a customizable communication interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🎨 Design
+A Figma design prototype is available here:
+AAC Prototype Design in Figma - original design features drag and drop symbols
 
-## Expanding the ESLint configuration
+🧰 Technologies Used
+React JS – Front-end framework
+React Router DOM – For page navigation and routing
+Bootstrap – Used for grid layout and responsive styling
+Howler.js / VoiceRSS API – For speech synthesis (text-to-speech)
+Custom CSS – For theming and styling symbol buttons and interaction areas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# AacBoardDelta
+🔑 Key Features
+Click to speak features: User can touch a letter or symbol for it to synthesize speech
+
+Speech Synthesis: Plays audio for selected letters, pictures, videos, or full messages
+
+Navigation Bar (Navbar): User can access different boards
+
+Reusable CSS Classes: Applied across components to maintain visual consistency
+
+Browser Routing: Seamless navigation using <Routes> and <Link> components
+
+Lauren A. Jackson M.S. CCC-SLP
+
+
+
