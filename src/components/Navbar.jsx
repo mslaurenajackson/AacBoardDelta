@@ -19,6 +19,12 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/gullah">Gullah Dialect</Link>
             </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Keyboard">Keyboard</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/Settings">Settings</Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -19,6 +19,7 @@ const symbols = [
   { id: 11, text: 'Give', image: 'give.jpg' },
   { id: 12, text: 'Are', image: 'are.jpg' },
 ];
+//it ("should use API to synthesize the voice when the patient clicks on a symbol"
 
 function HomePage() {
   const [sentence, setSentence] = useState([]);
@@ -85,7 +86,7 @@ function HomePage() {
           </div>
         </div>
         <footer className="watermark">
-          © {new Date().getFullYear()} Lauren A. Jackson M.S. CCC-SLP
+          © {new Date().getFullYear()} Lauren A. Jackson M.S. CCC-SLP 
         </footer>
       </div>
     </>
@@ -93,3 +94,6 @@ function HomePage() {
 }
 
 export default HomePage;
+
+
+//How do you know the features you're creating are valuable to your users? It will give the use a voice
