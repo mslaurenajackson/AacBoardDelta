@@ -131,3 +131,6 @@ function App() {
 }
 
 export default App;
+
+
+//Dedicated in loving memory of my mother Alethea W. Jackson, and my grandmother Matilda White 

@@ -1,3 +1,5 @@
+[![OpenAAC](https://www.openaac.org/images/OpenAAC-chat-red.svg)](https://www.openaac.org/advocates.html)
+
 Welcome!
 
 This project is a React.js prototype of an Augmentative and Alternative Communication (AAC) device, inspired by my grandmother, who suffered a grand mal stroke. As a speech-language pathologist (SLP), I was motivated to design a symbol board using Picture Exchange Communication System (PECS) principles to support individuals with speech and communication challenges.

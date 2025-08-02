@@ -17,7 +17,7 @@ const symbols = [
   { id: 10, text: 'Help', video: 'help.mp4' },
   { id: 11, text: 'Cookie', image: 'cookie.jpg' },
   { id: 12, text: 'Give', image: 'give.jpg' },
-  { id: 13, text: 'Are', image: 'are.jpg' },
+  
 ];
 //it ("should use API to synthesize the voice when the patient clicks on a symbol"
 
@@ -95,5 +95,5 @@ function HomePage() {
 
 export default HomePage;
 
-
+//Dedicated in loving memory of my mother Alethea W. Jackson, and my grandmother Matilda White 
 //How do you know the features you're creating are valuable to your users? It will give the use a voice
